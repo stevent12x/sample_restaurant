@@ -1,10 +1,20 @@
 
 @font-face {
-    font-family: "Mission Script";
-    src: local("Fonts/Mission-Script.otf");
+    font-family: "Cylburn";
+    src: local("Fonts/Cylburn.ttf");
+}
+@font-face {
+    font-family: "Yatra One";
+    src: local("Fonts/YatraOne-Regular.ttf");
 }
 #title {
-    font-family: "Mission Script";
-    font-size: 4em;
+    padding-top: 0.2em;
+    padding-left: 0.2em;
+    font-family: "Cylburn";
+    font-size: 4.5em;
     color: darkgrey;
+}
+.menu-items {
+    font-style: italic;
+    padding-right: 0.2em;
 }

@@ -9,12 +9,10 @@
     <script src="node_modules/uikit/dist/js/uikit-core.min.js"></script>
     <script src="node_modules/uikit/dist/js/uikit-icons.min.js"></script>
 </head>
-<body>
-<div class="uk-container">
+<body class="uk-background-cover" style="background-image: url(Pictures/Textures/red_background.jpg)">
+<div class="uk-container uk-background-muted uk-container">
 <nav class="uk-navbar-container" uk-navbar>
-
 <div class="uk-navbar-left" id="title">Sample Restaurant</div>
-
     <div class="uk-navbar-right menu-items">
         <ul class="uk-navbar-nav">
             <li class="uk-active menu-items"><a href="#">About</a></li>
@@ -41,10 +39,12 @@
             <li><a href="#">Culture</a></li>
             <li><a href="#">Reserve</a></li>
         </ul>
-
     </div>
-
 </nav>
+    <br>
+    <div>
+        <img data-src="Pictures/Restaurant_ext.jpg" height="500px" width="1200px" alt="restaurant exterior" uk-img>
+    </div>
 </div>
 </body>
 </html>

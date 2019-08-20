@@ -1,4 +1,10 @@
 
-h1 {
-    color: firebrick;
+@font-face {
+    font-family: "Mission Script";
+    src: local("Fonts/Mission-Script.otf");
+}
+#title {
+    font-family: "Mission Script";
+    font-size: 4em;
+    color: darkgrey;
 }

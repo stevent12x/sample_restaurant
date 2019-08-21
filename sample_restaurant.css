@@ -10,7 +10,7 @@
 .break {
     /*border-top: 0.3px solid darkgrey;*/
     /*border-bottom: 0.3px solid darkgrey;*/
-    height: 20em;
+    height: 10em;
     width: 100%;
     z-index: 1;
 }
@@ -36,4 +36,12 @@ img {
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
     filter: grayscale(80%);
+}
+.uk-background-blend-lighten {
+    border: 0.5px darkgoldenrod;
+    font-family: Rasa;
+    font-size: 1em;
+}
+.uk-background-cover {
+    filter: grayscale(35%);
 }

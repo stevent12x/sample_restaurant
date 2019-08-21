@@ -5,8 +5,9 @@
 }
 @font-face {
     font-family: "Yatra One";
-    src: local("Fonts/YatraOne-Regular.ttf");
+    src: local("fonts/YatraOne-Regular.ttf");
 }
+
 .break {
     /*border-top: 0.3px solid darkgrey;*/
     /*border-bottom: 0.3px solid darkgrey;*/
@@ -22,6 +23,12 @@
     color: darkgrey;
 }
 .menu-items {
+    font-family: "Yatra One";
+    font-style: italic;
+    padding-right: 0.5em;
+}
+.uk-navbar-nav ul li{
+    font-family: 'Hepta Slab', serif;
     font-style: italic;
     padding-right: 0.5em;
 }
@@ -35,12 +42,20 @@
 img {
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
-    filter: grayscale(80%);
+    filter: grayscale(60%);
 }
 .uk-background-blend-lighten {
     border: 0.5px darkgoldenrod;
     font-family: Rasa;
     font-size: 1em;
+    filter: opacity(98%);
+    background-color: #f0f0f0;
+}
+.uk-container {
+    filter: opacity(96.5%);
+    background-color: #f0f0f0;
+    padding-left: 0em;
+    padding-right: 0em;
 }
 .uk-background-cover {
     filter: grayscale(35%);

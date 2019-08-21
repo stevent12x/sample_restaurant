@@ -1,4 +1,47 @@
 
-h1 {
-    color: firebrick;
+@font-face {
+    font-family: "Cylburn";
+    src: local("Fonts/Cylburn.ttf");
+}
+@font-face {
+    font-family: "Yatra One";
+    src: local("Fonts/YatraOne-Regular.ttf");
+}
+.break {
+    /*border-top: 0.3px solid darkgrey;*/
+    /*border-bottom: 0.3px solid darkgrey;*/
+    height: 10em;
+    width: 100%;
+    z-index: 1;
+}
+#title {
+    padding-top: 0.2em;
+    padding-left: 0.5em;
+    font-family: "Cylburn";
+    font-size: 4.5em;
+    color: darkgrey;
+}
+.menu-items {
+    font-style: italic;
+    padding-right: 0.5em;
+}
+.uk-background-blend-color {
+    background-color: darkgrey;
+}
+.uk-card {
+    font-size: 0.9em;
+    color: #a9a9a9;
+}
+img {
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    filter: grayscale(80%);
+}
+.uk-background-blend-lighten {
+    border: 0.5px darkgoldenrod;
+    font-family: Rasa;
+    font-size: 1em;
+}
+.uk-background-cover {
+    filter: grayscale(35%);
 }

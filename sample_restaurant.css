@@ -5,8 +5,9 @@
 }
 @font-face {
     font-family: "Yatra One";
-    src: local("Fonts/YatraOne-Regular.ttf");
+    src: local("fonts/YatraOne-Regular.ttf");
 }
+
 .break {
     /*border-top: 0.3px solid darkgrey;*/
     /*border-bottom: 0.3px solid darkgrey;*/
@@ -22,6 +23,12 @@
     color: darkgrey;
 }
 .menu-items {
+    font-family: "Yatra One";
+    font-style: italic;
+    padding-right: 0.5em;
+}
+.uk-navbar-nav ul li{
+    font-family: 'Hepta Slab', serif;
     font-style: italic;
     padding-right: 0.5em;
 }

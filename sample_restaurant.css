@@ -42,6 +42,7 @@
 img {
     -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
     filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+    filter: opacity(100%);
     filter: grayscale(60%);
 }
 .uk-background-blend-lighten {

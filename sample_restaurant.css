@@ -25,12 +25,13 @@
 .menu-items {
     font-family: 'Yatra One';
     font-style: italic;
-    padding-right: 0.5em;
+    padding-right: 0.75em;
 }
 .uk-navbar-nav ul li{
     font-family: 'Yellowtail', serif;
+    font-size: 1.4em;
     font-style: italic;
-    padding-right: 0.5em;
+    padding-right: 0.75em;
 }
 .uk-background-blend-color {
     background-color: darkgrey;

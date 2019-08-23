@@ -13,7 +13,7 @@
 </head>
 <body class="uk-background-fixed uk-background-cover" style="background-image: url(Pictures/Restaurant_ext.jpg); z-index: 200">
 <!--<div class="uk-container uk-background-muted">-->
-    <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    <div uk-sticky="sel-target: uk-navbar-container; cls-active: uk-navbar-sticky">
         <div class="uk-container uk-background-muted">
             <nav class="uk-navbar-container" uk-navbar>
 <div class="uk-navbar-left top-menu" id="title">sample restaurant</div>
@@ -53,8 +53,11 @@
 <div class="uk-container uk-background-blend-lighten">
     <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-padding-large uk-background-blend-lighten" uk-grid>
         <div class="uk-card-media-left uk-cover-container">
-            <img src="Pictures/bread_on_silver_bowl.jpg" alt="" uk-cover>
-            <canvas width="600" height="400"></canvas>
+            <div class="uk-inline">
+            <img class="uk-dark" src="Pictures/bread_on_silver_bowl.jpg" alt="" uk-cover>
+            <canvas width="600" height="400" class="uk-blend-darken uk-dark"></canvas>
+                <div class="uk-overlay uk-position-bottom uk-dark"></div>
+            </div>
         </div>
         <div>
             <div class="uk-card-body uk-padding-large uk-margin-large">
@@ -70,7 +73,7 @@
 <div uk-scrollspy="uk-animation-fade" class="uk-container">
     <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-padding-large" uk-grid>
         <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
-            <img src="Pictures/cooks_in_kitchen.jpg" alt="" uk-cover>
+            <img class="uk-dark" src="Pictures/cooks_in_kitchen.jpg" alt="Cooks in Kitchen" uk-cover>
             <canvas width="600" height="400"></canvas>
         </div>
         <div>
@@ -107,6 +110,6 @@
             </div>
     </div>
 </div>
-
+<a href="#" uk-totop uk-scroll></a>
 </body>
 </html>
